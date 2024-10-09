@@ -12,7 +12,7 @@ public class MockApiValiation {
 	
 	@BeforeClass
 	public void setUp() {
-		jsp = UtilityFunctions.rawToJSON(Payload.mockApiResponse());
+		jsp = UtilityFunctions.rawToJSON(Payload.staticApiRequest("MockAPIResponse"));
 	}
 	
 	@Test

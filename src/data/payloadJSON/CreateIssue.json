@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "project": {
+      "key": "SCRUM"
+    },
+    "summary": "Incorrect total price calculation on the checkout page",
+    "description": {
+      "content": [
+        {
+          "content": [
+            {
+              "text": "Given: I have added products to the cart. When: I navigate to the checkout page. Then: Expected: The total price should be calculated correctly. Actual: The total price is higher than the actual price of products in the cart",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc",
+      "version": 1
+    },
+    "issuetype": {
+      "name": "Bug"
+    }
+  }
+}

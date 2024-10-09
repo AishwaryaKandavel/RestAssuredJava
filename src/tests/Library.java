@@ -39,6 +39,7 @@ public class Library {
 		isbn = (String) obj.get("isbn");
 		aisle = (Integer) obj.get("aisle")+"";
 		author = (String) obj.get("author");
+		ID = isbn+aisle;
 		
 		addBook();
 		getBook();
